@@ -1,0 +1,440 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local PrisonLife = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local PrisonLifeGUI = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local RGhoul = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local Title_2 = Instance.new("TextLabel")
+local Dragonball = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local BeeSwarm = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
+local RGhoul_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
+local ProjectXl = Instance.new("TextButton")
+local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
+local Cyberc = Instance.new("TextButton")
+local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
+local ZAttack = Instance.new("TextButton")
+local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local credit = Instance.new("TextLabel")
+local Minimize = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+frame.Name = "frame"
+frame.Parent = ScreenGui
+frame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+frame.Position = UDim2.new(0.352196574, 0, 0.24201481, 0)
+frame.Size = UDim2.new(0, 415, 0, 289)
+
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = frame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PrisonLife.BackgroundTransparency = 1.000
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(0.353361815, 0, 0.21925135, 0)
+PrisonLife.Size = UDim2.new(0, 120, 0, 50)
+PrisonLife.ZIndex = 2
+PrisonLife.Font = Enum.Font.Cartoon
+PrisonLife.Text = "PrisonLife Auto ROB"
+PrisonLife.TextColor3 = Color3.fromRGB(163, 163, 163)
+PrisonLife.TextSize = 14.000
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/inceldom/scrip/main/pl3',true))()
+end)
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = PrisonLife
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+PrisonLifeGUI.Name = "PrisonLifeGUI"
+PrisonLifeGUI.Parent = frame
+PrisonLifeGUI.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PrisonLifeGUI.BackgroundTransparency = 1.000
+PrisonLifeGUI.BorderSizePixel = 0
+PrisonLifeGUI.Position = UDim2.new(0.044736743, 0, 0.21925135, 0)
+PrisonLifeGUI.Size = UDim2.new(0, 120, 0, 50)
+PrisonLifeGUI.ZIndex = 2
+PrisonLifeGUI.Font = Enum.Font.Cartoon
+PrisonLifeGUI.Text = "Prison Life GUI"
+PrisonLifeGUI.TextColor3 = Color3.fromRGB(163, 163, 163)
+PrisonLifeGUI.TextSize = 14.000
+PrisonLifeGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/inceldom/grubhub/main/loader',true))()
+end)
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = PrisonLifeGUI
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+RGhoul.Name = "R-Ghoul"
+RGhoul.Parent = frame
+RGhoul.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+RGhoul.BackgroundTransparency = 1.000
+RGhoul.BorderSizePixel = 0
+RGhoul.Position = UDim2.new(0.355245292, 0, 0.454545468, 0)
+RGhoul.Size = UDim2.new(0, 120, 0, 50)
+RGhoul.ZIndex = 2
+RGhoul.Font = Enum.Font.Cartoon
+RGhoul.Text = "Ro-Ghoul GUI"
+RGhoul.TextColor3 = Color3.fromRGB(163, 163, 163)
+RGhoul.TextSize = 14.000
+RGhoul.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://bruh.keshhub.com/main.lua"))()
+end)
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = RGhoul
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+Title.Name = "Title"
+Title.Parent = frame
+Title.BackgroundColor3 = Color3.fromRGB(198, 66, 198)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.183575094, 0, 0.0203523114, 0)
+Title.Size = UDim2.new(0, 62, 0, 30)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "HUB"
+Title.TextColor3 = Color3.fromRGB(44, 44, 44)
+Title.TextSize = 20.000
+Title.TextWrapped = true
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = Title
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(198, 66, 198)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+Title_2.Name = "Title"
+Title_2.Parent = frame
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(168, 168, 168)
+Title_2.Position = UDim2.new(0, 0, 0.0359547026, 0)
+Title_2.Size = UDim2.new(0, 78, 0, 22)
+Title_2.Font = Enum.Font.Cartoon
+Title_2.Text = "Grafity"
+Title_2.TextColor3 = Color3.fromRGB(167, 167, 167)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+Dragonball.Name = "Dragonball"
+Dragonball.Parent = frame
+Dragonball.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Dragonball.BackgroundTransparency = 1.000
+Dragonball.BorderSizePixel = 0
+Dragonball.Position = UDim2.new(0.0468115099, 0, 0.454545468, 0)
+Dragonball.Size = UDim2.new(0, 120, 0, 50)
+Dragonball.ZIndex = 2
+Dragonball.Font = Enum.Font.Cartoon
+Dragonball.Text = "Dragon Ball Rage GUI"
+Dragonball.TextColor3 = Color3.fromRGB(163, 163, 163)
+Dragonball.TextSize = 14.000
+Dragonball.TextWrapped = true
+Dragonball.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/dbrage.lua"))()
+end)
+
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Dragonball
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+BeeSwarm.Name = "Bee Swarm"
+BeeSwarm.Parent = frame
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BeeSwarm.BackgroundTransparency = 1.000
+BeeSwarm.BorderSizePixel = 0
+BeeSwarm.Position = UDim2.new(0.661269367, 0, 0.21925135, 0)
+BeeSwarm.Size = UDim2.new(0, 120, 0, 50)
+BeeSwarm.ZIndex = 2
+BeeSwarm.Font = Enum.Font.Cartoon
+BeeSwarm.Text = "Bee Swarm GUI"
+BeeSwarm.TextColor3 = Color3.fromRGB(163, 163, 163)
+BeeSwarm.TextSize = 14.000
+BeeSwarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/inceldom/grubhub/main/loader',true))()
+end)
+
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = BeeSwarm
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
+
+RGhoul_2.Name = "R-Ghoul"
+RGhoul_2.Parent = frame
+RGhoul_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+RGhoul_2.BackgroundTransparency = 1.000
+RGhoul_2.BorderSizePixel = 0
+RGhoul_2.Position = UDim2.new(0.65885973, 0, 0.69329983, 0)
+RGhoul_2.Size = UDim2.new(0, 120, 0, 50)
+RGhoul_2.ZIndex = 2
+RGhoul_2.Font = Enum.Font.Cartoon
+RGhoul_2.Text = "Arsenal AIMBOT/ESP GUI"
+RGhoul_2.TextColor3 = Color3.fromRGB(163, 163, 163)
+RGhoul_2.TextSize = 14.000
+RGhoul_2.TextWrapped = true
+RGhoul_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_6.Parent = RGhoul_2
+TextButton_Roundify_12px_6.Active = true
+TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_6.Selectable = true
+TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_6.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_6.SliceScale = 0.120
+
+ProjectXl.Name = "ProjectXl"
+ProjectXl.Parent = frame
+ProjectXl.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ProjectXl.BackgroundTransparency = 1.000
+ProjectXl.BorderSizePixel = 0
+ProjectXl.Position = UDim2.new(0.355245292, 0, 0.69329983, 0)
+ProjectXl.Size = UDim2.new(0, 120, 0, 50)
+ProjectXl.ZIndex = 2
+ProjectXl.Font = Enum.Font.Cartoon
+ProjectXl.Text = "Project XL GUI Auto Farm"
+ProjectXl.TextColor3 = Color3.fromRGB(163, 163, 163)
+ProjectXl.TextSize = 14.000
+ProjectXl.TextWrapped = true
+ProjectXl.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/ZaRdoOx/Project-XL-GUI/main/GUI',true))()
+
+end)
+
+TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_7.Parent = ProjectXl
+TextButton_Roundify_12px_7.Active = true
+TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_7.Selectable = true
+TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_7.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_7.SliceScale = 0.120
+
+Cyberc.Name = "Cyberc"
+Cyberc.Parent = frame
+Cyberc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Cyberc.BackgroundTransparency = 1.000
+Cyberc.BorderSizePixel = 0
+Cyberc.Position = UDim2.new(0.0468115509, 0, 0.69329983, 0)
+Cyberc.Size = UDim2.new(0, 120, 0, 50)
+Cyberc.ZIndex = 2
+Cyberc.Font = Enum.Font.Cartoon
+Cyberc.Text = "Cyber City Tycoon infite Money GUI"
+Cyberc.TextColor3 = Color3.fromRGB(163, 163, 163)
+Cyberc.TextSize = 14.000
+Cyberc.TextWrapped = true
+Cyberc.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/ZaRdoOx/cyber/main/load',true))()
+end)
+
+TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_8.Parent = Cyberc
+TextButton_Roundify_12px_8.Active = true
+TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_8.Selectable = true
+TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_8.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_8.SliceScale = 0.120
+
+ZAttack.Name = "ZAttack"
+ZAttack.Parent = frame
+ZAttack.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ZAttack.BackgroundTransparency = 1.000
+ZAttack.BorderSizePixel = 0
+ZAttack.Position = UDim2.new(0.65885973, 0, 0.454545468, 0)
+ZAttack.Size = UDim2.new(0, 120, 0, 50)
+ZAttack.ZIndex = 2
+ZAttack.Font = Enum.Font.Cartoon
+ZAttack.Text = "Zombie Attack GUI"
+ZAttack.TextColor3 = Color3.fromRGB(163, 163, 163)
+ZAttack.TextSize = 14.000
+ZAttack.TextWrapped = true
+ZAttack.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_9.Parent = ZAttack
+TextButton_Roundify_12px_9.Active = true
+TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_9.Selectable = true
+TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_9.ImageColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_9.SliceScale = 0.120
+
+Open.Name = "Open"
+Open.Parent = frame
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.894218087, 0, 0.0198132768, 0)
+Open.Size = UDim2.new(0, 30, 0, 30)
+Open.Font = Enum.Font.Cartoon
+Open.Text = "-"
+Open.TextColor3 = Color3.fromRGB(71, 71, 71)
+Open.TextScaled = true
+Open.TextSize = 20.000
+Open.TextWrapped = true
+
+UICorner.Parent = Open
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(174, 157, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(209, 200, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(192, 196, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(74, 255, 255))}
+UIGradient.Parent = Open
+
+credit.Name = "credit"
+credit.Parent = frame
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit.BackgroundTransparency = 1.000
+credit.BorderSizePixel = 0
+credit.Position = UDim2.new(0.551730096, 0, 0.836889863, 0)
+credit.Size = UDim2.new(0, 255, 0, 72)
+credit.Font = Enum.Font.SourceSans
+credit.Text = "Credit ZaRdoOx @2021"
+credit.TextColor3 = Color3.fromRGB(0, 0, 0)
+credit.TextSize = 14.000
+
+Minimize.Name = "Minimize"
+Minimize.Parent = ScreenGui
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.Position = UDim2.new(0.461653024, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 121, 0, 31)
+Minimize.Font = Enum.Font.Cartoon
+Minimize.Text = "Open HUB"
+Minimize.TextColor3 = Color3.fromRGB(98, 98, 98)
+Minimize.TextSize = 25.000
+Minimize.TextWrapped = true
+
+UICorner_2.Parent = Minimize
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(76, 193, 231))}
+UIGradient_2.Parent = Minimize
+
+-- Scripts:
+
+local function IJUVI_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(IJUVI_fake_script)()
+local function UGKB_fake_script() -- Minimize.LocalScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	local frame = script.Parent.Parent.frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(UGKB_fake_script)()
